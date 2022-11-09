@@ -1,12 +1,12 @@
 # Pin Werkzeug because it keeps breaking Flask!
 Werkzeug==2.1.2
-Flask-Talisman-1.0.0
+Flask-Talisman==1.0.0
 # Runtime dependencies
 Flask==2.1.2
 Flask-SQLAlchemy==2.5.1
 psycopg2-binary==2.9.3
 python-dotenv==0.20.0
-
+Flask-Cors
 # Runtime tools
 gunicorn==20.1.0
 honcho==1.1.0
